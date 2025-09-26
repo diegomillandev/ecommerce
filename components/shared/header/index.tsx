@@ -28,7 +28,7 @@ export const Header = () => {
               <ShoppingCart /> Cart
             </Link>
           </Button>
-          <Button variant="ghost" asChild>
+          <Button asChild>
             <Link href="/sign-in" aria-label="Sign In">
               <UserIcon /> Sign In
             </Link>
